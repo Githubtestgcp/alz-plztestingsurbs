@@ -1,4 +1,4 @@
-﻿/*
+/*
 --- Built-in Replacements ---
 This file contains built-in replacements to avoid repeating the same hard-coded values.
 Replacements are denoted by the dollar-dollar curly braces token (e.g. $${starter_location_01}). The following details each built-in replacements that you can use:
@@ -375,8 +375,10 @@ hub_virtual_networks = {
     bastion = {
       subnet_address_prefix = "$${primary_bastion_subnet_address_prefix}"
       name                  = "$${primary_bastion_host_name}"
+      zones                 = []
       bastion_public_ip = {
-        name = "$${primary_bastion_host_public_ip_name}"
+        name  = "$${primary_bastion_host_public_ip_name}"
+        zones = []
       }
     }
   }
@@ -386,8 +388,8 @@ hub_virtual_networks = {
 
 enable_telemetry = true
 telemetry_additional_content = {
-                    deployed_by                    = "alz-terraform-accelerator"
-                    run_id                         = "f482bec4-5eed-4ba2-a0e0-539e4c20b0f8"
-                    migrate_project_name = "plz-testing"
-                    generated_from_client          = "ama"
-                    }
+  deployed_by           = "alz-terraform-accelerator"
+  run_id                = "f482bec4-5eed-4ba2-a0e0-539e4c20b0f8"
+  migrate_project_name  = "plz-testing"
+  generated_from_client = "ama"
+}
