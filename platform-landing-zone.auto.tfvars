@@ -79,7 +79,7 @@ custom_replacements = {
     primary_virtual_network_gateway_vpn_public_ip_name_2         = "pip-vgw-hub-vpn-$${starter_location_01}-002"
     primary_private_dns_resolver_name                            = "pdr-hub-dns-$${starter_location_01}"
     primary_bastion_host_name                                    = "bas-hub-$${starter_location_01}"
-    primary_bastion_host_public_ip_name                          = "pip-bastion-hub-$${starter_location_01}"
+    primary_bastion_host_public_ip_name                          = "pip-bastion-hub-$${starter_location_01}-nz"
 
     # Private DNS Zones primary
     primary_auto_registration_zone_name = "$${starter_location_01}.azure.local"
