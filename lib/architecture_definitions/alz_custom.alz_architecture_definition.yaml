@@ -1,85 +1,74 @@
-name: alz_custom
-management_groups:
-  - id: plztestingsurbs-alz
-    display_name: PLZ Testing Surbs
-    archetypes:
-      - root_custom
-    exists: false
-    parent_id: null
-
-  - id: plztestingsurbs-platform
-    display_name: PLZ Testing Surbs Platform
-    archetypes:
-      - platform_custom
-    exists: false
-    parent_id: plztestingsurbs-alz
-
-  - id: plztestingsurbs-landingzones
-    display_name: PLZ Testing Surbs Landing Zones
-    archetypes:
-      - landing_zones_custom
-    exists: false
-    parent_id: plztestingsurbs-alz
-
-  - id: plztestingsurbs-corp
-    display_name: PLZ Testing Surbs Corp
-    archetypes:
-      - corp_custom
-    exists: false
-    parent_id: plztestingsurbs-landingzones
-
-  - id: plztestingsurbs-online
-    display_name: PLZ Testing Surbs Online
-    archetypes:
-      - online_custom
-    exists: false
-    parent_id: plztestingsurbs-landingzones
-
-  - id: plztestingsurbs-local
-    display_name: PLZ Testing Surbs Local
-    archetypes:
-      - local_custom
-    exists: false
-    parent_id: plztestingsurbs-landingzones
-
-  - id: plztestingsurbs-sandbox
-    display_name: PLZ Testing Surbs Sandbox
-    archetypes:
-      - sandbox_custom
-    exists: false
-    parent_id: plztestingsurbs-alz
-
-  - id: plztestingsurbs-security
-    display_name: PLZ Testing Surbs Security
-    archetypes:
-      - security_custom
-    exists: false
-    parent_id: plztestingsurbs-platform
-
-  - id: plztestingsurbs-management
-    display_name: PLZ Testing Surbs Management
-    archetypes:
-      - management_custom
-    exists: false
-    parent_id: plztestingsurbs-platform
-
-  - id: plztestingsurbs-connectivity
-    display_name: PLZ Testing Surbs Connectivity
-    archetypes:
-      - connectivity_custom
-    exists: false
-    parent_id: plztestingsurbs-platform
-
-  - id: plztestingsurbs-identity
-    display_name: PLZ Testing Surbs Identity
-    archetypes:
-      - identity_custom
-    exists: false
-    parent_id: plztestingsurbs-platform
-
-  - id: plztestingsurbs-decommissioned
-    display_name: PLZ Testing Surbs Decommissioned
-    archetypes:
-      - decommissioned_custom
-    exists: false
-    parent_id: plztestingsurbs-alz
+"management_groups":
+- "archetypes":
+  - "root_custom"
+  "display_name": "PLZ Testing Surbs"
+  "exists": true
+  "id": "plztestingsurbs-alz"
+  "parent_id": null
+- "archetypes":
+  - "platform_custom"
+  "display_name": "PLZ Testing Surbs Platform"
+  "exists": false
+  "id": "plztestingsurbs-platform"
+  "parent_id": "plztestingsurbs-alz"
+- "archetypes":
+  - "landing_zones_custom"
+  "display_name": "PLZ Testing Surbs Landing Zones"
+  "exists": false
+  "id": "plztestingsurbs-landingzones"
+  "parent_id": "plztestingsurbs-alz"
+- "archetypes":
+  - "corp_custom"
+  "display_name": "PLZ Testing Surbs Corp"
+  "exists": false
+  "id": "plztestingsurbs-corp"
+  "parent_id": "plztestingsurbs-landingzones"
+- "archetypes":
+  - "online_custom"
+  "display_name": "PLZ Testing Surbs Online"
+  "exists": false
+  "id": "plztestingsurbs-online"
+  "parent_id": "plztestingsurbs-landingzones"
+- "archetypes":
+  - "local_custom"
+  "display_name": "PLZ Testing Surbs Local"
+  "exists": false
+  "id": "plztestingsurbs-local"
+  "parent_id": "plztestingsurbs-landingzones"
+- "archetypes":
+  - "sandbox_custom"
+  "display_name": "PLZ Testing Surbs Sandbox"
+  "exists": false
+  "id": "plztestingsurbs-sandbox"
+  "parent_id": "plztestingsurbs-alz"
+- "archetypes":
+  - "security_custom"
+  "display_name": "PLZ Testing Surbs Security"
+  "exists": false
+  "id": "plztestingsurbs-security"
+  "parent_id": "plztestingsurbs-platform"
+- "archetypes":
+  - "management_custom"
+  "display_name": "PLZ Testing Surbs Management"
+  "exists": false
+  "id": "plztestingsurbs-management"
+  "parent_id": "plztestingsurbs-platform"
+- "archetypes":
+  - "connectivity_custom"
+  "display_name": "PLZ Testing Surbs Connectivity"
+  "exists": false
+  "id": "plztestingsurbs-connectivity"
+  "parent_id": "plztestingsurbs-platform"
+- "archetypes":
+  - "identity_custom"
+  "display_name": "PLZ Testing Surbs Identity"
+  "exists": false
+  "id": "plztestingsurbs-identity"
+  "parent_id": "plztestingsurbs-platform"
+- "archetypes":
+  - "decommissioned_custom"
+  "display_name": "PLZ Testing Surbs Decommissioned"
+  "exists": false
+  "id": "plztestingsurbs-decommissioned"
+  "parent_id": "plztestingsurbs-alz"
+"name": "alz_custom"
